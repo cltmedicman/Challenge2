@@ -1,6 +1,6 @@
 This application is a professional portolio designed for the UNCC coding bootcamp class.
 
-Here is a link to the deployed application: https://cltmedicman.github.io/Challenge2/
+Here is a link to the deployed application: https://cltmedicman.github.io/Portfolio/
 
 Below is a screenshot of the application:
 
