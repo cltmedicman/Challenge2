@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- navigation tags - block level element -->
+    <div id="wrapper">
     <header>
         <h1>Phillip Shirah</h1>
         <nav>
@@ -50,10 +50,24 @@
                 Work
             </h2>
             <div class = "work-img">
-                <img src = "assets/images/arnold-francisca-f77Bh3inUpE-unsplash.jpg" width = "1500" height = "1000" alt="laptop displaying code">
-                <img src = "assets/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg" width = "750" height = "500" alt = "laptop with glowing sceen">
-                <img src = "assets/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg" width = "750" height = "500" alt = "eyeglasses on laptop">
-                <img src = "assets/images/markus-spiske-iar-afB0QQw-unsplash.jpg" width = "750" height = "500" alt = "matrix code">
+                <div id = "overlay1">
+                    <div class = "overlay1-text">Challenge 1</div>
+                    <a href = "https://cltmedicman.github.io/cltmedicman/" target="_blank">
+                        <img src = "assets/images/Challenge1.png" width = 750px height = 500px>
+                    </a>
+                </div>
+                <div id = "overlay2">
+                    <div class = "overlay2-text">Run Buddy</div>
+                    <a href = "https://cltmedicman.github.io/run-buddy/" target="_blank">
+                        <img src = "assets/images/Run-buddy.png" width = 375px height = 250px>
+                    </a>
+                </div>
+                <div id = "overlay3">
+                    <div class = "overlay3-text">Robot Gladiators</div>
+                    <a href = "https://github.com/cltmedicman/robot-gladiators" target="_blank">
+                        <img src = "assets/images/robot-gladiators.png" width = 375px height = 250px>
+                    </a>                    
+                </div>
             </div>
         </div>
         <div id = "contact-me" class = "contact">
@@ -78,5 +92,6 @@
             </div>
         </div>
     </section>
+    </div>
 </body>
 </html>

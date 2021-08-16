@@ -1,13 +1,11 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
 }
 
 body {
     color: #31333d;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: #ededf6;
 }
 
 header {
@@ -68,7 +66,13 @@ section {
     padding-top: 400px;
 
 }
-  
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1250px;
+}
+
 .intro {
     margin: 0 0;
     padding-bottom: 50px;
@@ -86,7 +90,7 @@ section {
     flex-wrap: wrap;
     align-items: center;
     text-decoration-color: #445877;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .about-me h2 {
@@ -97,8 +101,9 @@ section {
     text-align: right;
     margin-right: 10px;
     border-right: 5px solid;
-    height: 200px;
+    height: 290px;
     padding-right: 10px;
+    padding-left: 40px;
 }
 
 .about-me-text {
@@ -115,27 +120,72 @@ section {
 }
 
 .work {
-    display: flex;
-    flex-wrap: wrap;
+    float: left;
     align-items: center;
     text-decoration-color: #445877;
 }
 
 .work h2 {
-    display:flex;
-    flex-wrap: wrap;
+    float: left;
     font-size: 46px;
     flex: 1 55px;
     text-align: right;
     margin-right: 10px;
     border-right: 5px solid;
-    height: 2000px;
+    height: 800px;
     padding-right: 10px;
+    padding-left: 60px;
 }
 
 .work-img {
-    flex:12;
+    display: flex;
+    flex-wrap: wrap;
     padding-left:10px;
+}
+
+#overlay1 {
+    width: 750px;
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+
+#overlay2, #overlay3 {
+    width: 375px;
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+}
+
+.overlay1-text {
+    position: absolute;
+    color: aqua;
+    font-size: 20px;
+    background-color: #445877;
+}
+
+.overlay2-text {
+    position: absolute;
+    color: aqua;
+    font-size: 20px;
+    background-color: #445877;
+}
+
+.overlay3-text {
+    position: absolute;
+    color: aqua;
+    font-size: 20px;
+    background-color: #445877;
+}
+
+#overlay1:hover {
+    opacity: 40%;
+}
+
+#overlay2:hover {
+    opacity: 40%;
+}
+
+#overlay3:hover {
+    opacity: 40%;
 }
 
 .contact {
@@ -153,7 +203,7 @@ section {
     text-align: right;
     margin-right: 10px;
     border-right: 5px solid;
-    height: 100px;
+    height: 200px;
     padding-right: 10px;
 }
 
@@ -164,15 +214,17 @@ section {
 .contact ul {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content:left;
-    align-items: center;
-    list-style: none;
+    align-items: left;
+    list-style:none;
+    line-height: 300%;
 }
 
 .contact ul li a {
-    margin: 0 30px;
+    margin: 0 30px 10px 10px;
     color: #31343d;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-weight: bold;
     text-underline-offset: 20%;
     text-decoration-thickness: 5px;
