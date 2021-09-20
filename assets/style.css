@@ -143,48 +143,32 @@ section {
     padding-left:10px;
 }
 
-#overlay1 {
+#overlay-large {
     width: 750px;
     height: 500px;
     margin: 10px 10px 10px 10px;
 }
 
-#overlay2, #overlay3, #overlay4, #overlay5 {
+#overlay-small {
     width: 375px;
     height: 250px;
     margin: 10px 10px 10px 10px;
 }
 
-.overlay1-text {
+.overlay-text {
     position: absolute;
     color: aqua;
     font-size: 20px;
     background-color: #445877;
 }
 
-.overlay2-text {
-    position: absolute;
-    color: aqua;
-    font-size: 20px;
-    background-color: #445877;
-}
 
-.overlay3-text {
-    position: absolute;
-    color: aqua;
-    font-size: 20px;
-    background-color: #445877;
-}
 
-#overlay1:hover {
+#overlay-large:hover {
     opacity: 40%;
 }
 
-#overlay2:hover {
-    opacity: 40%;
-}
-
-#overlay3:hover {
+#overlay-small:hover {
     opacity: 40%;
 }
 
